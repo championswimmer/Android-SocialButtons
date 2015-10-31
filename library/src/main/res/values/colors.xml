@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="facebook">#3b5998</color>
+    <color name="twitter">#00aced</color>
+    <color name="googleplus">#dd4b39</color>
+    <color name="youtube">#bb0000</color>
+    <color name="linkedin">#007bb5</color>
+    <color name="instagram">#125688</color>
+    <color name="whatsapp">#4dc247</color>
+    <color name="pinterest">#cb2027</color>
+    <color name="vine">#00bf8f</color>
+    <color name="snapchat">#fffc00</color>
+    <color name="quora">#a82400</color>
+    <color name="dropbox">#007ee5</color>
+    <color name="flickr">#ff0084</color>
+    <color name="tumblr">#32506d</color>
+    <color name="foursquare">#0072b1</color>
+
+    <color name="ripple">#74848484</color>
+
+</resources>
