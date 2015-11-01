@@ -7,6 +7,6 @@ functionality. That you have to code yourself.
 [![Build Status](https://travis-ci.org/championswimmer/Android-SocialButtons.svg)](https://travis-ci.org/championswimmer/Android-SocialButtons)
 
 ## Screenshots
-<img src="/screenshots/screen1.png" width="480"/>
-<img src="/screenshots/screen2.png" width="480"/>
-<img src="/screenshots/screen3.png" width="480"/>
+<img src="/screenshots/screen1.png" width="300"/>
+<img src="/screenshots/screen2.png" width="300"/>
+<img src="/screenshots/screen3.png" width="300"/>
