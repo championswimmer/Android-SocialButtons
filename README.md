@@ -5,7 +5,7 @@ As of now, this is **only** a UI library. This library does not provide any soci
 functionality. That you have to code yourself. 
 
 [![Build Status](https://travis-ci.org/championswimmer/Android-SocialButtons.svg)](https://travis-ci.org/championswimmer/Android-SocialButtons)
-[![Release](https://img.shields.io/github/tag/championswimmer/Android-SocialButtons.svg?label=maven)](https://jitpack.io/#championswimmer/SimpleFingerGestures_Android_Library)
+[![Release](https://img.shields.io/github/tag/championswimmer/Android-SocialButtons.svg?label=maven)](https://jitpack.io/#championswimmer/Android-SocialButtons)
 
 ## Screenshots
 <img src="/screenshots/screen1.png" width="300"/>
