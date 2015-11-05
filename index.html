@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Android-socialbuttons by championswimmer</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Android-socialbuttons</h1>
+        <p class="header">A library for easily implementing social login/share buttons</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/championswimmer/Android-SocialButtons/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/championswimmer/Android-SocialButtons/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/championswimmer/Android-SocialButtons">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/championswimmer">championswimmer</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="android-socialbuttons" class="anchor" href="#android-socialbuttons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Android SocialButtons</h1>
+
+<p>An android library for implementing login/share buttons easily for social networks.</p>
+
+<p>As of now, this is <strong>only</strong> a UI library. This library does not provide any social network
+functionality. That you have to code yourself. </p>
+
+<p><a href="https://travis-ci.org/championswimmer/Android-SocialButtons"><img src="https://travis-ci.org/championswimmer/Android-SocialButtons.svg" alt="Build Status"></a>
+<a href="https://jitpack.io/#championswimmer/Android-SocialButtons"><img src="https://img.shields.io/github/tag/championswimmer/Android-SocialButtons.svg?label=maven" alt="Release"></a></p>
+
+<h2>
+<a id="screenshots" class="anchor" href="#screenshots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screenshots</h2>
+
+<p><img src="https://github.com/championswimmer/Android-SocialButtons/blob/master/screenshots/screen1.png" width="300">
+<img src="https://github.com/championswimmer/Android-SocialButtons/blob/master/screenshots/screen2.png" width="300">
+<img src="https://github.com/championswimmer/Android-SocialButtons/blob/master/screenshots/screen3.png" width="300"></p>
+
+<h2>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h2>
+
+<h3>
+<a id="include-the-library" class="anchor" href="#include-the-library" aria-hidden="true"><span class="octicon octicon-link"></span></a>Include the library</h3>
+
+<p>You can either download the source or add to gradle via <a href="http://jitpack.io">jitpack.io</a>
+Add jitpack to your dependencies - </p>
+
+<div class="highlight highlight-source-groovy"><pre> repositories {
+        jcenter()
+        maven { url <span class="pl-s"><span class="pl-pds">"</span>https://jitpack.io<span class="pl-pds">"</span></span> }
+    }</pre></div>
+
+<p>And include the library in your dependencies   </p>
+
+<div class="highlight highlight-source-groovy"><pre> dependencies {
+        compile <span class="pl-s"><span class="pl-pds">'</span>com.github.championswimmer:Android-SocialButtons:1.0<span class="pl-pds">'</span></span>
+    }</pre></div>
+
+<h3>
+<a id="floating-action-buttons" class="anchor" href="#floating-action-buttons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Floating Action Buttons</h3>
+
+<h4>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h4>
+
+<p>To use FloatingActionButtons, (for example a Facebook button), use the <code>FABFacebook</code> component</p>
+
+<div class="highlight highlight-text-xml"><pre>        &lt;<span class="pl-ent">in</span>.championswimmer.libsocialbuttons.fabs.FABFacebook
+            <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_width</span>=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_height</span>=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_margin</span>=<span class="pl-s"><span class="pl-pds">"</span>7dp<span class="pl-pds">"</span></span> /&gt;
+</pre></div>
+
+<h4>
+<a id="customizations" class="anchor" href="#customizations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Customizations</h4>
+
+<p>Other than the color and the icon, everything else can be changed using the usual xml attributes. <code>android:src</code>, <code>android:backgroundTint</code> will have no effect even if you set them in your layout xml. </p>
+
+<p>The FABs are extended from <code>com.melnykov.fab.FloatingActionButton</code> So all the features of <a href="https://github.com/makovkastar/FloatingActionButton">Melnykov Oleksandr's FloatingActionButton library</a> are inherently available here as well. </p>
+
+<h3>
+<a id="buttons" class="anchor" href="#buttons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Buttons</h3>
+
+<h4>
+<a id="usage-1" class="anchor" href="#usage-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h4>
+
+<p>Usual <code>Button</code> is also available. To use, for example a Twitter button, use the following in your xml   </p>
+
+<div class="highlight highlight-text-xml"><pre>    &lt;<span class="pl-ent">in</span>.championswimmer.libsocialbuttons.buttons.BtnTwitter
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">text</span>=<span class="pl-s"><span class="pl-pds">"</span>Follow on Twitter<span class="pl-pds">"</span></span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_width</span>=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_height</span>=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span> /&gt;</pre></div>
+
+<h4>
+<a id="customizations-1" class="anchor" href="#customizations-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Customizations</h4>
+
+<p>You have to set your own text using the <code>android:text</code> attribute. While the Button has it's own style predefined, you can still override the following via xml attributes - </p>
+
+<ul>
+<li>
+<code>android:textAllCaps</code> (Default: false)</li>
+<li>
+<code>android:font-family</code> and <code>android:textStyle</code> (Default: sans-serif-ligt normal)</li>
+<li>
+<code>android:textSize</code> (Default: 24sp)</li>
+<li>
+<code>android:padding</code> (Default: 15dp)</li>
+<li>
+<code>android:drawablePadding</code> (Default: 15dp)</li>
+</ul>
+
+<p>You cannot set <code>android:drawableLeft</code> and the other Right, Top, Bottom drawbles.</p>
+
+<p><strong>NOTE: If you chose to you can set no text, and you'll just get a square button with a social icon in it</strong></p>
+
+<h3>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h3>
+
+<ul>
+<li><a href="http://designpieces.com/2012/12/social-media-colours-hex-and-rgb/">DesignPieces collection of social colors</a></li>
+<li><a href="https://github.com/makovkastar/FloatingActionButton">Melnykov Oleksandr's FloatingActionButton library</a></li>
+</ul>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
