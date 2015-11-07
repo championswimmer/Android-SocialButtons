@@ -74,8 +74,9 @@ You cannot set `android:drawableLeft` and the other Right, Top, Bottom drawbles.
 
 ### Credits 
 * [DesignPieces collection of social colors](http://designpieces.com/2012/12/social-media-colours-hex-and-rgb/)
-* [Melnykov Oleksandr's FloatingActionButton library](https://github.com/makovkastar/FloatingActionButton)
-* 
+* [Melnykov Oleksandr's FloatingActionButton library](https://github.com/makovkastar/FloatingActionButton)   
+
+
 ## License 
 This software is licensed under the Apache License V2.0
 A copy can be found [here](./LICENSE.md)
