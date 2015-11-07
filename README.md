@@ -6,6 +6,8 @@ functionality. That you have to code yourself.
 
 [![Build Status](https://travis-ci.org/championswimmer/Android-SocialButtons.svg)](https://travis-ci.org/championswimmer/Android-SocialButtons)
 [![Release](https://img.shields.io/github/tag/championswimmer/Android-SocialButtons.svg?label=maven)](https://jitpack.io/#championswimmer/Android-SocialButtons)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android%20SocialButtons-orange.svg?style=plastic)](http://android-arsenal.com/details/1/2740)
+
 
 ## Screenshots
 <img src="/screenshots/screen1.png" width="300"/>
