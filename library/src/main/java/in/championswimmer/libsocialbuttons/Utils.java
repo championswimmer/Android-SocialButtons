@@ -1,7 +1,5 @@
 package in.championswimmer.libsocialbuttons;
 
-import android.content.Context;
-import android.content.res.Resources;
 import android.graphics.Color;
 
 /**
@@ -17,8 +15,4 @@ public class Utils {
         return Color.rgb((int) r, (int) g, (int) b);
     }
 
-    public static int dp2px (int dp, Resources res) {
-        final float scale = res.getDisplayMetrics().density;
-        return (int) (dp * scale + 0.5f);
-    }
-}
+  }

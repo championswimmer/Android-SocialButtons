@@ -1,65 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <in.championswimmer.libsocialbuttons.buttons.BtnDropbox
-        android:text="Save to Dropbox"
+    <in.championswimmer.libsocialbuttons.BtnSocial
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnFacebook
-        android:text="Login with Facebook"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnFlickr
-        android:text="Share on Flickr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnFoursquare
-        android:text="Checkin on Foursquare"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnGoogleplus
-        android:text="Login with Google"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnInstagram
-        android:text="Follow on Instagram"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnLinkedin
-        android:text="Login with Linkedin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnPinterest
-        android:text="Share on Pinterest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnQuora
-        android:text="Search on Quora"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnTumblr
-        android:text="Share on Tumblr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnTwitter
-        android:text="Follow on Twitter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnVine
-        android:text="watch on Vine"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnWhatsapp
-        android:text="Send via Whatsapp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <in.championswimmer.libsocialbuttons.buttons.BtnYoutube
-        android:text="watch on Youtube"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Login With Facebook"
+        custom:social="facebook"
+        />
 
 </LinearLayout>

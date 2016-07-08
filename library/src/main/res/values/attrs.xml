@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Social">
+        <attr name="social" format="enum">
+            <enum name="facebook" value="0" />
+            <enum name="google" value="1" />
+            <enum name="dropbox" value="2" />
+            <enum name="flicker" value="3" />
+            <enum name="foursquare" value="4" />
+            <enum name="instagram" value="5" />
+            <enum name="linkedin" value="6" />
+            <enum name="odnoklassniki" value="7" />
+            <enum name="pinterest" value="8" />
+            <enum name="quora" value="9" />
+            <enum name="tumblr" value="10" />
+            <enum name="twitter" value="11" />
+            <enum name="vine" value="12" />
+            <enum name="vkontakte" value="13" />
+            <enum name="whatsapp" value="14" />
+            <enum name="youtube" value="15" />
+
+        </attr>
+
+    </declare-styleable>
+</resources>
