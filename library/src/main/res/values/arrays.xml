@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--This array must be sorted with the same indexes in  attrs enum-->
+    <string-array name="available_buttons">
+        <item>facebook</item>
+        <item>google</item>
+        <item>dropbox</item>
+        <item>flicker</item>
+        <item>foursquare</item>
+        <item>instagram</item>
+        <item>linkedin</item>
+        <item>odnoklassniki</item>
+        <item>pinterest</item>
+        <item>quora</item>
+        <item>tumblr</item>
+        <item>twitter</item>
+        <item>vine</item>
+        <item>vkontakte</item>
+        <item>whatsapp</item>
+        <item>youtube</item>
+    </string-array>
+
+
+    <!--Social buttons styles -->
+    <array name="facebook">
+        <item>@color/facebook</item>
+        <item>@drawable/logo_facebook</item>
+    </array>
+    <array name="google">
+        <item>@color/googleplus</item>
+        <item>@drawable/logo_google</item>
+    </array>
+    <array name="dropbox">
+        <item>@color/dropbox</item>
+        <item>@drawable/logo_dropbox</item>
+    </array>
+    <array name="flicker">
+        <item>@color/flickr</item>
+        <item>@drawable/logo_flickr</item>
+    </array>
+    <array name="foursquare">
+        <item>@color/foursquare</item>
+        <item>@drawable/logo_foursquare</item>
+    </array>
+    <array name="instagram">
+        <item>@color/instagram</item>
+        <item>@drawable/logo_instagram</item>
+    </array>
+    <array name="linkedin">
+        <item>@color/linkedin</item>
+        <item>@drawable/logo_linkedin</item>
+    </array>
+    <array name="odnoklassniki">
+        <item>@color/odnoklassniki</item>
+        <item>@drawable/logo_odnoklassniki</item>
+    </array>
+    <array name="pinterest">
+        <item>@color/pinterest</item>
+        <item>@drawable/logo_pinterest</item>
+    </array>
+    <array name="quora">
+        <item>@color/quora</item>
+        <item>@drawable/logo_quora</item>
+    </array>
+    <array name="tumblr">
+        <item>@color/tumblr</item>
+        <item>@drawable/logo_tumblr</item>
+    </array>
+    <array name="twitter">
+        <item>@color/twitter</item>
+        <item>@drawable/logo_twitter</item>
+    </array>
+    <array name="vine">
+        <item>@color/vine</item>
+        <item>@drawable/logo_vine</item>
+    </array>
+    <array name="vkontakte">
+        <item>@color/vine</item>
+        <item>@drawable/logo_vkontakte</item>
+    </array>
+    <array name="whatsapp">
+        <item>@color/vine</item>
+        <item>@drawable/logo_whatsapp</item>
+    </array>
+    <array name="youtube">
+        <item>@color/youtube</item>
+        <item>@drawable/logo_youtube</item>
+    </array>
+
+</resources>

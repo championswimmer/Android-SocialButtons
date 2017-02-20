@@ -2,100 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <LinearLayout
+    <in.championswimmer.libsocialbuttons.FabSocial
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
-
-        <in.championswimmer.libsocialbuttons.fabs.FABDropbox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-
-        <in.championswimmer.libsocialbuttons.fabs.FABFacebook
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-
-        <in.championswimmer.libsocialbuttons.fabs.FABFlickr
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-
-        <in.championswimmer.libsocialbuttons.fabs.FABFoursquare
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
-
-        <in.championswimmer.libsocialbuttons.fabs.FABGoogleplus
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-
-        <in.championswimmer.libsocialbuttons.fabs.FABInstagram
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-
-        <in.championswimmer.libsocialbuttons.fabs.FABLinkedin
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-
-        <in.championswimmer.libsocialbuttons.fabs.FABPinterest
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
-
-        <in.championswimmer.libsocialbuttons.fabs.FABQuora
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-
-        <in.championswimmer.libsocialbuttons.fabs.FABTumblr
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-
-        <in.championswimmer.libsocialbuttons.fabs.FABTwitter
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-
-        <in.championswimmer.libsocialbuttons.fabs.FABVine
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
-
-        <in.championswimmer.libsocialbuttons.fabs.FABWhatsapp
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-
-        <in.championswimmer.libsocialbuttons.fabs.FABYoutube
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
-    </LinearLayout>
+        custom:social="facebook"
+        />
 
 </LinearLayout>
