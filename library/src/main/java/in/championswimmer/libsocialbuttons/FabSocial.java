@@ -16,7 +16,7 @@ import android.util.AttributeSet;
 public class FabSocial extends FloatingActionButton {
 
 
-    public FabSocial(Context context, AttributeSet attrs, int defStyleAttr) {
+    public FabSocial(Context context, AttributeSet attrs) {
         super(context, attrs, 0);
 
         TypedArray a = context.getTheme().obtainStyledAttributes(
