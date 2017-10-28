@@ -19,7 +19,7 @@ functionality. That you have to code yourself.
 
 ### Include the library
 You can either download the source or add to gradle via [jitpack.io](http://jitpack.io)
-Add jitpack to your dependencies - 
+Add jitpack to your dependencies (in the main project folder) - 
 ```groovy
  repositories {
         jcenter()
@@ -27,10 +27,10 @@ Add jitpack to your dependencies -
     }
 ```
 
-And include the library in your dependencies   
+And include the library in your dependencies (in app folder)   
 ```groovy
  dependencies {
-        compile 'com.github.championswimmer:Android-SocialButtons:1.0'
+        compile 'in.championswimmer:Android-SocialButtons:1.2'
     }
 ```  
 
