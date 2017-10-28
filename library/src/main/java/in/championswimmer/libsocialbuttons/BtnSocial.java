@@ -1,5 +1,6 @@
 package in.championswimmer.libsocialbuttons;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
@@ -15,6 +16,8 @@ import android.util.TypedValue;
  */
 public class BtnSocial extends AppCompatButton {
 
+
+    @SuppressLint("RestrictedApi")
     public BtnSocial(Context context, AttributeSet attrs) {
         super(context, attrs);
 

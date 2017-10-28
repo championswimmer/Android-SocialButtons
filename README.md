@@ -39,10 +39,13 @@ And include the library in your dependencies
 To use FloatingActionButtons, (for example a Facebook button), use the `FABFacebook` component
 
 ```xml
-        <in.championswimmer.libsocialbuttons.fabs.FABFacebook
+        <in.championswimmer.libsocialbuttons.fabs.FABSocial
+            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            app:social="facebook"
+             />
 
 ```
 
@@ -55,10 +58,13 @@ The FABs are extended from `com.melnykov.fab.FloatingActionButton` So all the fe
 #### Usage
 Usual `Button` is also available. To use, for example a Twitter button, use the following in your xml   
 ```xml
-    <in.championswimmer.libsocialbuttons.buttons.BtnTwitter
+    <in.championswimmer.libsocialbuttons.buttons.BtnSocial
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:text="Follow on Twitter"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        app:social="twitter"
+         />
 ```
 
 #### Customizations

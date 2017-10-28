@@ -20,8 +20,6 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    implementation ('com.melnykov:floatingactionbutton:+') {
-        exclude group: 'com.android.support'
-    }
     implementation 'com.android.support:appcompat-v7:26.+'
+    implementation 'com.android.support:design:26.+'
 }

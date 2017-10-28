@@ -1,12 +1,14 @@
 package in.championswimmer.libsocialbuttons;
 
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 
-import com.melnykov.fab.FloatingActionButton;
+
 
 /**
  * Created by talat on 08-07-2016.
@@ -34,9 +36,10 @@ public class FabSocial extends FloatingActionButton {
             int colorRipple = ContextCompat.getColor(context, R.color.ripple);
             int colorPressed = Utils.blendColors(colorNormal, colorRipple, 0.8f);
 
-            setColorNormal(colorNormal);
-            setColorRipple(colorRipple);
-            setColorPressed(colorPressed);
+
+            setBackgroundColor(colorNormal);
+            setBackgroundTintList(ColorStateList.valueOf(colorNormal));
+            setRippleColor(colorRipple);
             setImageDrawable(logo);
 
 
