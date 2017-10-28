@@ -13,10 +13,10 @@ import android.util.AttributeSet;
 /**
  * Created by talat on 08-07-2016.
  */
-public class FabSocial extends FloatingActionButton {
+public class SocialFab extends FloatingActionButton {
 
 
-    public FabSocial(Context context, AttributeSet attrs) {
+    public SocialFab(Context context, AttributeSet attrs) {
         super(context, attrs, 0);
 
         TypedArray a = context.getTheme().obtainStyledAttributes(

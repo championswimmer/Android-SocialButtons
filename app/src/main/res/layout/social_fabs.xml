@@ -5,7 +5,7 @@
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <in.championswimmer.libsocialbuttons.FabSocial
+    <in.championswimmer.libsocialbuttons.SocialFab
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         custom:social="twitter"
