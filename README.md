@@ -52,8 +52,6 @@ To use FloatingActionButtons, (for example a Facebook button), use the `FABFaceb
 #### Customizations
 Other than the color and the icon, everything else can be changed using the usual xml attributes. `android:src`, `android:backgroundTint` will have no effect even if you set them in your layout xml. 
 
-The FABs are extended from `com.melnykov.fab.FloatingActionButton` So all the features of [Melnykov Oleksandr's FloatingActionButton library](https://github.com/makovkastar/FloatingActionButton) are inherently available here as well. 
-
 ### Buttons
 #### Usage
 Usual `Button` is also available. To use, for example a Twitter button, use the following in your xml   
@@ -82,8 +80,6 @@ You cannot set `android:drawableLeft` and the other Right, Top, Bottom drawbles.
 
 ### Credits 
 * [DesignPieces collection of social colors](http://designpieces.com/2012/12/social-media-colours-hex-and-rgb/)
-* [Melnykov Oleksandr's FloatingActionButton library](https://github.com/makovkastar/FloatingActionButton)   
-
 
 ## License 
 This software is licensed under the Apache License V2.0
