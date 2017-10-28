@@ -10,6 +10,7 @@ android:
   components:
     # Uncomment the lines below if you want to
     # use the latest revision of Android SDK Tools
+    - tools
     - platform-tools
     - tools
 
@@ -30,4 +31,7 @@ android:
     # if you need to run emulator(s) during your tests
     # - sys-img-armeabi-v7a-android-19
     # - sys-img-x86-android-17
+  licenses:
+      - 'android.+'
+      - 'google.+'
 
