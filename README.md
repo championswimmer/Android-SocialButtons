@@ -33,7 +33,7 @@ Add jitpack to your dependencies (in the main project folder) -
 And include the library in your dependencies (in app folder)   
 ```groovy
  dependencies {
-        compile 'in.championswimmer:Android-SocialButtons:1.2'
+        compile 'in.championswimmer:Android-SocialButtons:1.3'
     }
 ```  
 
