@@ -4,6 +4,9 @@ An android library for implementing login/share buttons easily for social networ
 As of now, this is **only** a UI library. This library does not provide any social network
 functionality. That you have to code yourself. 
 
+[![Paypal Donate](https://img.shields.io/badge/Donate-Paypal-2244dd.svg)](https://paypal.me/championswimmer)
+
+
 [![Build Status](https://travis-ci.org/championswimmer/Android-SocialButtons.svg)](https://travis-ci.org/championswimmer/Android-SocialButtons)
 [![Release](https://img.shields.io/github/tag/championswimmer/Android-SocialButtons.svg?label=maven)](https://jitpack.io/#championswimmer/Android-SocialButtons)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android%20SocialButtons-orange.svg?style=plastic)](http://android-arsenal.com/details/1/2740)
